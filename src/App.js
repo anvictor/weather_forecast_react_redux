@@ -22,8 +22,8 @@ function App() {
 
     })
       .catch(error=>{
-        console.log("error", "City name not found")
-        setErrormessage("City name not found")
+        console.log("error", "City name not found or exceeded the limit of calls")
+        setErrormessage("City name not found or exceeded the limit of calls")
       })
     }
     return () => {
